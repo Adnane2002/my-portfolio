@@ -1,6 +1,6 @@
 import React from 'react'
 import img from '../pages/image5.jpeg'
-import 'animate.css/animate.min.css'
+ 
 import Typical from 'react-typical'
 
 function About() {
