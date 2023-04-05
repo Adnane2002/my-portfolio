@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+nav{
+  font-family: 'Anton', sans-serif;
+}
+.img-logo{
+  width: 70px;
+  height: 70px;
+}
+*{
+  background-color: #0A192F;
+  color: #64FFDA;
+}
+.nav-link {
+  position: relative;
+  color: white;
+}
+
+.nav-link:hover::before {
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 2px;
+  bottom: -2px;
+  background-color: #b3b3b3;
+}
+
+.nav-link.active::before {
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 2px;
+  bottom: -2px;
+  background-color: yellow;
+}
+.nav-NavLink {
+  text-decoration: none;
+}
+.image-about{
+  height: 400px;
+  width: 400px;
+  margin-top: 140px;
+  margin-left: 200px;
+}
+.btn{
+  background-color: #64FFDA;
+}
+.text-proj{
+  color: red;
+}
