@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 nav{
   font-family: 'Anton', sans-serif;
@@ -8,8 +9,20 @@ nav{
   height: 70px;
 }
 *{
-  background-color: #0A192F;
   color: #64FFDA;
+}
+body{
+  background-image: url(pxfuel.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media only screen and (max-width: 100px) {
+  body {
+    background-size: contain;
+  }
+}
+.navbar{
+  background-color: #272a2e;
 }
 .nav-link {
   position: relative;
@@ -48,3 +61,7 @@ nav{
 .text-proj{
   color: red ;
 } 
+p{
+  font-family: 'Dancing Script', sans-serif;
+}
+

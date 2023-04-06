@@ -5,7 +5,7 @@ import logo from "../kisspng-computer-programming-software-developer-software-e-
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark p-4">
+      <nav className="navbar navbar-expand-lg navbar-dark px-4 py-2 shadow">
         <div className="container-fluid">
           <NavLink className="navbar-brand" to="/">
             <img className="img-logo" src={logo} alt="logo" />
