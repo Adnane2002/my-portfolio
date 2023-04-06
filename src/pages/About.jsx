@@ -11,7 +11,7 @@ function About() {
                     <div className='ms-3 my-5'>
                         <div className='fs-1 my-5 ms-4 animate__animated animate__zoomIn animate__slower'>
                             <Typical
-                                steps={['About me ...', 2500, 'My life ...', 2500, 'Experiances ...', 2500]}
+                                steps={['About me ...', 2000, 'My life ...', 2000, 'Experiances ...', 2000]}
                                 loop={Infinity}
                                 wrapper="code"
                             />
