@@ -7,7 +7,7 @@ function Home() {
     <div className='container ms-3 my-5'>
        <div className='fs-1 ms-5'>
        <p><Typical
-            steps={['Hello World ...', 2000, 'Bonjour le monde ...', 2000 , 'こんにちは世界 ...',2000 , 'مرحبا بالعالم ...',2000, 'Hola Mundo ...', 2000, 'Hallo Welt ...', 2000 , '你好世界 ...', 2000]}
+            steps={['Hello World ...', 1500, 'Bonjour le monde ...', 1500 , 'こんにちは世界 ...',1500 , 'مرحبا بالعالم ...',1500, 'Hola Mundo ...', 1500, 'Hallo Welt ...', 1500 , '你好世界 ...', 1500]}
             loop={Infinity}
             wrapper="code"
           /></p>
