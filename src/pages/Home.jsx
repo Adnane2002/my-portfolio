@@ -12,8 +12,8 @@ function Home() {
           />
        </div>
       <div className='text-center animate__animated animate__zoomInDown animate__slow'>
-      <p className='my-5 ms-5 fs-3'> I'm Adnane Douiab an inspiring <span className='text-danger'>fullstack web devlopper</span></p>
-        <p className='mt-5 ms-5 fs-1 fw-bolder text-white' >I build websites using HTML ,Css and JavaScript.</p>  
+      <p className='my-5 ms-5 fs-3'> <span>&gt;</span>I'm Adnane Douiab an inspiring <span className='text-danger'>fullstack web devlopper</span></p>
+        <p className='mt-5 ms-5 fs-1 fw-bolder text-white' ><span>&gt;</span>I build websites using HTML ,Css and JavaScript.</p>  
       </div>
     </div>
         

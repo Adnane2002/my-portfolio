@@ -47,7 +47,7 @@ export default function Contact() {
       </h1>
       <form onSubmit={submit} className="text-white">
         <div className="form-group text-white">
-          <label for="exampleFormControlInput1" className="text-white">Name</label>
+          <label for="exampleFormControlInput1" className="text-white"><span>&gt;</span>Name</label>
           <input
             name="myInput"
             type={"text"}
@@ -59,7 +59,7 @@ export default function Contact() {
           />
         </div>
         <div className="form-group">
-          <label for="exampleFormControlInput1" className="text-white">Email address</label>
+          <label for="exampleFormControlInput1" className="text-white"><span>&gt;</span>Email address</label>
           <input
             name="myInput"
             type={"email"}
@@ -72,7 +72,7 @@ export default function Contact() {
         </div>
 
         <div className="form-group">
-          <label for="exampleFormControlTextarea1" className="text-white">Message</label>
+          <label for="exampleFormControlTextarea1" className="text-white"><span>&gt;</span>Message</label>
           <textarea
             className="form-control my-2 shadow"
             value={massage}
