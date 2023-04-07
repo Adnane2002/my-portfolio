@@ -40,7 +40,7 @@ export default function Contact() {
     <div className="container w-50 mt-5 pt-3">
       <h1 className=' my-5 ms-4 text-center fw-bold animate__animated animate__rotateInDownRight'>
         <Typical
-          steps={['Contact me ...', 2500, 'Job Enqueries ...', 2500, 'Wanna chat ...', 2500]}
+          steps={['Contact me ...', 2500, 'Job Inquiries ...', 2500, 'Wanna chat ...', 2500]}
           loop={Infinity}
           wrapper="p"
         />
