@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../tantan.png'
+import img from '../images/tantan.png'
 import 'animate.css/animate.min.css'
 import Typical from 'react-typical'
 
@@ -8,7 +8,7 @@ function About() {
         <div className='container'>
             <div className='row'>
                 <div className='col-md-7'>
-                    <div className='ms-3 my-5'>
+                    <div className='ms-3 my-3'>
                         <div className='fs-1 my-5 ms-4 animate__animated animate__zoomIn animate__slower'>
                             <Typical
                                 steps={['About me ...', 1500, 'My life ...', 1500, 'Experiances ...', 1500]}

@@ -14,9 +14,10 @@ nav{
 *{
   color: rgb(60, 237, 60);
   font-family: 'VT323', monospace;
+  overflow: hidden;
 }
   body{
-    background-image: url('wp4615544-terminal-wallpapers.png');
+    background-image: url('images/wp4615544-terminal-wallpapers.png');
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -66,4 +67,3 @@ nav{
 .text-proj{
   color: red ;
 } 
-
