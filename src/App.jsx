@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       setIsLoading(false);
-    }, 3000);
+    }, 2000);
 
     return () => {
       clearTimeout(timeoutId);
@@ -22,27 +22,32 @@ function App() {
 
   return (
     <>
-      {isLoading ? (
-        <div className="loader-wrapper">
-          <div className="loader">
-            <div className="ball-pulse-sync">
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-          </div>
-        </div>
-      ) : (
-        <>
-          <Navbar />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/projet" element={<Projects />} />
-          </Routes>
-        </>
-      )}
+
+
+{isLoading ? (
+  <div className="loader-wrapper">
+    <div className="loader">
+      <div className="pacman">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </div>
+) : (
+  <>
+    <Navbar />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/projet" element={<Projects />} />
+    </Routes>
+  </>
+)}
     </>
   );
 }

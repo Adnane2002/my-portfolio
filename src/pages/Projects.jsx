@@ -3,6 +3,7 @@ import git1 from '../images/git1.png'
 import git2 from '../images/git2.png'
 import git3 from '../images/git3.png'
 import { Link } from 'react-router-dom';
+import Typical from 'react-typical';
 
 
 
@@ -10,7 +11,13 @@ function Projects() {
   return (
     <>
       <div className='text-center'>
-        <h4 className='text-danger fs-1 my-5'>This is some of my work</h4>
+        <div className='fs-1 my-5 ms-4 animate__animated animate__zoomIn animate__slower'>
+          <Typical
+            steps={['Projects ...', 2500, 'Javascript ...', 1000, 'Html & Css ...', 1000]}
+            loop={Infinity}
+            wrapper="p"
+          />
+        </div>
       </div>
 
       <div id='carouselExampleCaptions' className='carousel slide' data-bs-ride='carousel'>

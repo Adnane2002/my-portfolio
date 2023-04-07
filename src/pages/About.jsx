@@ -17,13 +17,13 @@ function About() {
                             />
                         </div>
                         <div className='fs-4'>
-                        <p className='animate__animated animate__rotateInDownRight text-white'>
+                        <p className='animate__animated animate__slideInLeft animate__delay-1s text-white'>
                                <span>&gt;</span> Hello there! I am a web developer. I went to AUI university where I gained a solid foundation in programming and computer systems.
                         </p>
-                            <p className='animate__animated animate__rotateInDownRight text-white'>
+                            <p className='animate__animated animate__slideInLeft animate__delay-3s text-white'>
                             <span>&gt;</span> However, I found myself wanting more practical, hands-on experience in web development, which is what led me to enroll in the 3W Academy bootcamp. Here, I have been able to apply the skills I learned in university to real-world projects and challenges.
                             </p>
-                            <p className='animate__animated animate__rotateInDownRight text-white'>
+                            <p className='animate__animated animate__slideInLeft animate__delay-5s text-white'>
                                 <span>&gt;</span>I am excited to be a part of this rapidly-evolving field and am dedicated to staying up-to-date with the latest technologies and trends. My ultimate goal is to create user-friendly and aesthetically pleasing web experiences that make a positive impact on people's lives.
                             </p>
                         </div>
