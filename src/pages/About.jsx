@@ -9,7 +9,7 @@ function About() {
             <div className='row'>
                 <div className='col-md-7'>
                     <div className='ms-3 my-3'>
-                        <div className='fs-1 my-5 ms-4 animate__animated animate__zoomIn animate__slower'>
+                        <div className='fs-1 my-5 ms-4 animate__animated animate__zoomIn animate__slow'>
                             <Typical
                                 steps={['About me ...', 1500, 'Roadmap ...', 1500, 'Experiences ...', 1500]}
                                 loop={Infinity}
@@ -17,10 +17,10 @@ function About() {
                             />
                         </div>
                         <div className='fs-4'>
-                        <p className='animate__animated animate__slideInLeft animate__delay-1s text-white'>
+                        <p className='animate__animated animate__slideInLeft text-white'>
                                <span>&gt;</span> Hello there! I am a web developer. I went to AUI university where I gained a solid foundation in programming and computer systems.
                         </p>
-                            <p className='animate__animated animate__slideInLeft animate__delay-3s animate__slower text-white'>
+                            <p className='animate__animated animate__slideInLeft animate__delay-2s animate__slower text-white'>
                             <span>&gt;</span> However, I found myself wanting more practical, hands-on experience in web development, which is what led me to enroll in the 3W Academy bootcamp. Here, I have been able to apply the skills I learned in university to real-world projects and challenges.
                             </p>
                             <p className='animate__animated animate__slideInLeft animate__delay-5s animate__slower text-white'>
