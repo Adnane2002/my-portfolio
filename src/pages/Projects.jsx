@@ -1,6 +1,7 @@
 import React from 'react';
 import git1 from '../images/git1.png'
 import git2 from '../images/git2.png'
+import git3 from '../images/git3.png'
 import { Link } from 'react-router-dom';
 
 
@@ -44,11 +45,11 @@ function Projects() {
           </div>
           <div className='carousel-item'>
             <div className='card mx-auto' style={{ width: '400px' }}>
-              <img src='...' className='card-img-top' alt='...' />
+              <img src={git3} className='card-img-top' alt='...' />
               <div className='card-body'>
-                <h5 className='card-title '>Project Title 3</h5>
-                <p className='card-text'>Project Description 3</p>
-                <Link to="" className="btn btn-primary">View Project</Link>
+                <h5 className='card-title '>Calculator</h5>
+                <p className='card-text'>This is a fully functional calculator created in react</p>
+                <Link to="https://calculator-topaz-omega.vercel.app" className="btn btn-primary">View Project</Link>
               </div>
             </div>
           </div>
