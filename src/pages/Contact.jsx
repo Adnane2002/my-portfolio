@@ -42,12 +42,12 @@ export default function Contact() {
         <Typical
           steps={['Contact me ...', 2500, 'Job Enqueries ...', 2500, 'Wanna chat ...', 2500]}
           loop={Infinity}
-          wrapper="code"
+          wrapper="p"
         />
       </h1>
-      <form onSubmit={submit}>
-        <div className="form-group">
-          <label for="exampleFormControlInput1">Name</label>
+      <form onSubmit={submit} className="text-white">
+        <div className="form-group text-white">
+          <label for="exampleFormControlInput1" className="text-white">Name</label>
           <input
             name="myInput"
             type={"text"}
@@ -59,7 +59,7 @@ export default function Contact() {
           />
         </div>
         <div className="form-group">
-          <label for="exampleFormControlInput1">Email address</label>
+          <label for="exampleFormControlInput1" className="text-white">Email address</label>
           <input
             name="myInput"
             type={"email"}
@@ -72,7 +72,7 @@ export default function Contact() {
         </div>
 
         <div className="form-group">
-          <label for="exampleFormControlTextarea1">Message</label>
+          <label for="exampleFormControlTextarea1" className="text-white">Message</label>
           <textarea
             className="form-control my-2 shadow"
             value={massage}

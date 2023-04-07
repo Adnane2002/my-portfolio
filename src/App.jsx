@@ -34,7 +34,6 @@ function App() {
         </div>
       ) : (
         <>
-        <div className='background'>
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
@@ -42,7 +41,6 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/projet" element={<Projects />} />
           </Routes>
-          </div>
         </>
       )}
     </>

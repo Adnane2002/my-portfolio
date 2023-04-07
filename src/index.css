@@ -1,33 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 
 nav{
-  font-family: 'Anton', sans-serif;
+  font-family: 'VT323', monospace;
 }
 .img-logo{
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
 }
 *{
-  color: #64FFDA;
+  color: rgb(60, 237, 60);
+  font-family: 'VT323', monospace;
 }
-body{
-  background-image: url(pxfuel.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+  body{
+    background-image: url('backround\ terminal.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
 @media only screen and (max-width: 100px) {
   body {
     background-size: contain;
   }
 }
-.navbar{
-  background-color: #272a2e;
-}
+
 .nav-link {
   position: relative;
   color: white;
+  text-shadow: 1px 1px #000;
 }
+
 
 .nav-link:hover::before {
   content: "";
@@ -35,7 +40,7 @@ body{
   width: 60%;
   height: 2px;
   bottom: -2px;
-  background-color: #b3b3b3;
+
 }
 
 .nav-link.active::before {
@@ -50,10 +55,10 @@ body{
   text-decoration: none;
 }
 .image-about{
-  height: 400px;
-  width: 400px;
-  margin-top: 140px;
-  margin-left: 200px;
+  height: 500px;
+  width: 800px;
+  margin-top: 100px;
+  margin-right: 10px;
 }
 .btn{
   background-color: #64FFDA;
@@ -61,7 +66,4 @@ body{
 .text-proj{
   color: red ;
 } 
-p{
-  font-family: 'Dancing Script', sans-serif;
-}
 
