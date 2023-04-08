@@ -9,7 +9,7 @@ function About() {
             <div className='row'>
                 <div className='col-md-7'>
                     <div className='ms-3 my-3'>
-                        <div className='fs-1 my-5 ms-4 animate__animated animate__zoomIn animate__slow'>
+                        <div className='fs-1 my-5 ms-4 animate__animated animate__zoomIn animate__slow '>
                             <Typical
                                 steps={['About me ...', 1500, 'Roadmap ...', 1500, 'Experiences ...', 1500]}
                                 loop={Infinity}
