@@ -14,7 +14,7 @@ nav{
 *{
   color: rgb(60, 237, 60);
   font-family: 'VT323', monospace;
-  overflow: hidden;
+  overflow-x: hidden;
 }
   body{
     background-image: url('images/wp4615544-terminal-wallpapers.png');
@@ -32,6 +32,8 @@ nav{
   position: relative;
   color: white;
   text-shadow: 1px 1px #000;
+  overflow: hidden;
+
 }
 
 
