@@ -7,7 +7,7 @@ function About() {
     return (
         <div className='container'>
             <div className='row'>
-                <div className='col-md-7'>
+                <div className='col-md-12'>
                     <div className='ms-3 my-3'>
                         <div className='fs-1 my-5 ms-4 animate__animated animate__zoomIn animate__slow '>
                             <Typical
@@ -29,9 +29,7 @@ function About() {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-5'>
-                    <img className='image-about animate__animated animate__rotateInDownLeft ' src={img} alt="" />
-                </div>
+
             </div>
         </div>
     )
